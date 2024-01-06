@@ -97,37 +97,80 @@ p {
     line-height: 30px;
     list-style: none;
 }
+
 .tt>ul>li i {
     color: #16D887;
 }
-.fimg img{
+
+.fimg img {
     width: 570px;
     height: 700px;
 }
-#myplans{
+
+#myplans {
     text-align: center;
     max-width: 1280px;
     margin: 100px auto;
 }
-.cards{
+
+.cards {
     justify-content: space-around;
     display: flex;
     padding: 10px 0px;
 }
 
-.myplantitle h2{
+.myplantitle h2 {
     font-size: 40px;
     padding-bottom: 20px;
-} 
+}
+
 .cards .card img {
     width: 92.958px;
-height: 92.958px;
+    height: 92.958px;
 }
-.cards .card h4{
+
+.cards .card h4 {
     font-size: 30px;
-    padding: 10px 0px;;
+    padding: 10px 0px;
+    ;
 }
+
 .cards .card p {
-    color: #737272 ;
+    color: #737272;
     font-size: 25px;
+}
+
+#endimg {
+    background-image: url(./images/gradient1.png), url(./images/watch.png);
+    max-width: 1280px;
+    background-repeat: no-repeat;
+    margin: 100px auto;
+    width: 1140px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#endimg h2 {
+    color: #FFF;
+    width: 459px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 40px;
+}
+
+#endimg button {
+    padding: 20px 0px;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    text-align: center;
+    color: #F15B22;
+    border: none;
+    margin: 0px 40px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
