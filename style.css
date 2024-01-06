@@ -104,3 +104,30 @@ p {
     width: 570px;
     height: 700px;
 }
+#myplans{
+    text-align: center;
+    max-width: 1280px;
+    margin: 100px auto;
+}
+.cards{
+    justify-content: space-around;
+    display: flex;
+    padding: 10px 0px;
+}
+
+.myplantitle h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+} 
+.cards .card img {
+    width: 92.958px;
+height: 92.958px;
+}
+.cards .card h4{
+    font-size: 30px;
+    padding: 10px 0px;;
+}
+.cards .card p {
+    color: #737272 ;
+    font-size: 25px;
+}
